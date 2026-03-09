@@ -53,5 +53,7 @@ Router -->|LAN 4| Printer
 
 ```
 
+![](cenário de redes.png)
+
 
 
