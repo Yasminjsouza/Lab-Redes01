@@ -24,5 +24,26 @@ Implementar uma rede local simples conectando 3 notebook e um roteador com swich
 ## 2.Equipamentos utilizados neste laboratório
 
  - 3 notebooks
- - 1 roteador wireless com 1 porta WAN e 4 portas LANI
- - 
+ - 1 roteador wireless com 1 porta WAN e 4 portas LAN
+ - 1 impressora de rede
+ - cabos de redes
+
+---
+# 3. Topologia de Rede
+Diagram Lógica de rede utilizada nesta laboratório
+
+``` mermaid
+graph TD
+
+WAN[Internet / WAN do provedor]
+
+Router[Roteador Wireless<br> 1 porta WAN<br> 4 portas LAN]
+
+PC1[Notebook 1]
+PC2[Notebook 2]
+PC3[Notebook 3]
+
+Printer[Impressora de Rede]
+
+
+---
