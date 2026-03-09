@@ -56,4 +56,54 @@ Router -->|LAN 4| Printer
 ![](topologia.png)
 
 
+---
 
+## 4.Plano de endereço IP
+
+REDE:192.168.0.0/24
+Gateway:192.168.0.1
+
+|Dispositivos | Tipos de IP | Enderenço IP | Observação |
+|--------------|-------------|--------------|------------|
+| Roteador| Estácio | 192.168.0.1 | IP roteador |
+| Impressora | Reserva DHCP | 192.168.0.100| IP reservado pelon roteador|
+| PC1 | Reserva DHCP | 192.168.0.101| IP reservado pelon roteador|
+| PC2 | DHCP | Automático | IP atribuido pelo roteador |
+| PC3 | DHCP | Automático | IP atribuido pelo roteador |
+
+
+## Observação ##
+
+-A impressora e um dos notebook utilizados reserva DHCP
+-O roteador sempre atribui o mesmo Ip a esses dispositivos
+
+---
+## 5.Implementação no laboratório Real
+
+Após a instalação, a rede foi montada fisicamente no laboratório
+
+Etapas realizadas:
+
+(Fotos)
+
+Testes:
+
+(Fotos)
+
+---
+
+## 6.Conclusão
+
+Este laboratório permitiu compreender o funcionamento de uma rede local simples, incluindo:
+
+ - Estrutura de uma rede doméstica ou de pequeno escritório
+ 
+ - Utilização de um roteador com porta WAN e portas LAN
+ 
+ - Funcionamento do DHCP
+ 
+ - Comunicação entre dispositivos na rede local
+ 
+ - Utilização de uma impressora de rede
+ 
+ - Compartilhamento de pastas na rede
